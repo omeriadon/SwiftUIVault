@@ -1,0 +1,96 @@
+{
+  "originHash" : "f315b057ccf43fb9813f1b144ad23c63b8c1e4a1aeb8194869d0158830945ca3",
+  "pins" : [
+    {
+      "identity" : "colorfulx",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Lakr233/ColorfulX.git",
+      "state" : {
+        "revision" : "62c31053a270330f6a3f31ac2d80c47782f56506",
+        "version" : "5.6.4"
+      }
+    },
+    {
+      "identity" : "colorvector",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Lakr233/ColorVector.git",
+      "state" : {
+        "revision" : "031ce6ce65c0b347fb192302aa8ec4a17cc1494f",
+        "version" : "1.0.3"
+      }
+    },
+    {
+      "identity" : "confettiswiftui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/simibac/ConfettiSwiftUI/",
+      "state" : {
+        "revision" : "79666d42b882bf7921b1941fa7c636d681d77980",
+        "version" : "2.0.3"
+      }
+    },
+    {
+      "identity" : "glur?tab=readme-ov-file",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/joogps/Glur?tab=readme-ov-file",
+      "state" : {
+        "revision" : "9e00ff79da318f2c78b749b1027e54a9d4de2e33",
+        "version" : "1.0.4"
+      }
+    },
+    {
+      "identity" : "liquid?tab=readme-ov-file",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/maustinstar/liquid?tab=readme-ov-file",
+      "state" : {
+        "branch" : "master",
+        "revision" : "067aecd19425b3d37d1bca176aca9a0dc5ff6ed0"
+      }
+    },
+    {
+      "identity" : "msdisplaylink",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Lakr233/MSDisplayLink.git",
+      "state" : {
+        "revision" : "ebf5823cb5fc1326639d9a05bc06d16bbe82989f",
+        "version" : "2.0.8"
+      }
+    },
+    {
+      "identity" : "shiny",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/maustinstar/shiny",
+      "state" : {
+        "branch" : "master",
+        "revision" : "862360b8ab6b9ea9eb1156569a30f154b22625a5"
+      }
+    },
+    {
+      "identity" : "springinterpolation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Lakr233/SpringInterpolation.git",
+      "state" : {
+        "revision" : "f9d1ee3d2466bdb00fd0ade7f256ed20229c8413",
+        "version" : "1.3.0"
+      }
+    },
+    {
+      "identity" : "swiftglass?tab=readme-ov-file",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/1998code/SwiftGlass?tab=readme-ov-file",
+      "state" : {
+        "revision" : "7cfa698f5419202e4aa65f5b1ffc3b43b8969151",
+        "version" : "1.7.0"
+      }
+    },
+    {
+      "identity" : "swiftui-introspect",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/siteline/SwiftUI-Introspect",
+      "state" : {
+        "revision" : "807f73ce09a9b9723f12385e592b4e0aaebd3336",
+        "version" : "1.3.0"
+      }
+    }
+  ],
+  "version" : 3
+}

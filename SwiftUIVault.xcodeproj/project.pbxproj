@@ -6,6 +6,31 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A7C48BC52DB6913000A3CC73 /* Shiny in Frameworks */ = {isa = PBXBuildFile; productRef = A7C48BC42DB6913000A3CC73 /* Shiny */; };
+		A7C48BC82DB70C1400A3CC73 /* Liquid in Frameworks */ = {isa = PBXBuildFile; productRef = A7C48BC72DB70C1400A3CC73 /* Liquid */; };
+		A7C48BD22DB7158500A3CC73 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = A7C48BD12DB7158500A3CC73 /* ConfettiSwiftUI */; };
+		A7F387392DB610BC0037E89A /* SwiftUIIntrospect-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = A7F387382DB610BC0037E89A /* SwiftUIIntrospect-Dynamic */; };
+		A7F3873A2DB610BC0037E89A /* SwiftUIIntrospect-Dynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = A7F387382DB610BC0037E89A /* SwiftUIIntrospect-Dynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A7F387412DB61E2C0037E89A /* SwiftGlass in Frameworks */ = {isa = PBXBuildFile; productRef = A7F387402DB61E2C0037E89A /* SwiftGlass */; };
+		A7F387442DB61FA90037E89A /* ColorfulX in Frameworks */ = {isa = PBXBuildFile; productRef = A7F387432DB61FA90037E89A /* ColorfulX */; };
+		A7F387472DB61FB80037E89A /* Glur in Frameworks */ = {isa = PBXBuildFile; productRef = A7F387462DB61FB80037E89A /* Glur */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A7F387352DB60FFC0037E89A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A7F3873A2DB610BC0037E89A /* SwiftUIIntrospect-Dynamic in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		A718B2FF2DB601700010A6DF /* SwiftUIVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIVault.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +48,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7F387392DB610BC0037E89A /* SwiftUIIntrospect-Dynamic in Frameworks */,
+				A7F387442DB61FA90037E89A /* ColorfulX in Frameworks */,
+				A7C48BC82DB70C1400A3CC73 /* Liquid in Frameworks */,
+				A7F387472DB61FB80037E89A /* Glur in Frameworks */,
+				A7C48BC52DB6913000A3CC73 /* Shiny in Frameworks */,
+				A7F387412DB61E2C0037E89A /* SwiftGlass in Frameworks */,
+				A7C48BD22DB7158500A3CC73 /* ConfettiSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -33,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				A718B3012DB601700010A6DF /* SwiftUIVault */,
+				A7F387372DB610BC0037E89A /* Frameworks */,
 				A718B3002DB601700010A6DF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +78,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A7F387372DB610BC0037E89A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -55,6 +95,7 @@
 				A718B2FB2DB601700010A6DF /* Sources */,
 				A718B2FC2DB601700010A6DF /* Frameworks */,
 				A718B2FD2DB601700010A6DF /* Resources */,
+				A7F387352DB60FFC0037E89A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -65,6 +106,13 @@
 			);
 			name = SwiftUIVault;
 			packageProductDependencies = (
+				A7F387382DB610BC0037E89A /* SwiftUIIntrospect-Dynamic */,
+				A7F387402DB61E2C0037E89A /* SwiftGlass */,
+				A7F387432DB61FA90037E89A /* ColorfulX */,
+				A7F387462DB61FB80037E89A /* Glur */,
+				A7C48BC42DB6913000A3CC73 /* Shiny */,
+				A7C48BC72DB70C1400A3CC73 /* Liquid */,
+				A7C48BD12DB7158500A3CC73 /* ConfettiSwiftUI */,
 			);
 			productName = SwiftUIVault;
 			productReference = A718B2FF2DB601700010A6DF /* SwiftUIVault.app */;
@@ -94,6 +142,15 @@
 			);
 			mainGroup = A718B2F62DB601700010A6DF;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A7F387362DB610A20037E89A /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+				A7F3873F2DB61E2C0037E89A /* XCRemoteSwiftPackageReference "SwiftGlass" */,
+				A7F387422DB61FA90037E89A /* XCRemoteSwiftPackageReference "ColorfulX" */,
+				A7F387452DB61FB80037E89A /* XCRemoteSwiftPackageReference "Glur" */,
+				A7C48BC32DB6913000A3CC73 /* XCRemoteSwiftPackageReference "shiny" */,
+				A7C48BC62DB70C1400A3CC73 /* XCRemoteSwiftPackageReference "liquid" */,
+				A7C48BD02DB7158500A3CC73 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A718B3002DB601700010A6DF /* Products */;
 			projectDirPath = "";
@@ -250,19 +307,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SwiftUIVault/SwiftUIVault.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C2HN547N49;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SwiftUIVault;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = omeriadon.SwiftUIVault;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -277,19 +335,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SwiftUIVault/SwiftUIVault.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C2HN547N49;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SwiftUIVault;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = omeriadon.SwiftUIVault;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -321,6 +380,103 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A7C48BC32DB6913000A3CC73 /* XCRemoteSwiftPackageReference "shiny" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maustinstar/shiny";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A7C48BC62DB70C1400A3CC73 /* XCRemoteSwiftPackageReference "liquid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maustinstar/liquid?tab=readme-ov-file";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A7C48BD02DB7158500A3CC73 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.3;
+			};
+		};
+		A7F387362DB610A20037E89A /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
+		A7F3873F2DB61E2C0037E89A /* XCRemoteSwiftPackageReference "SwiftGlass" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/1998code/SwiftGlass?tab=readme-ov-file";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.6.0;
+			};
+		};
+		A7F387422DB61FA90037E89A /* XCRemoteSwiftPackageReference "ColorfulX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Lakr233/ColorfulX.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.4;
+			};
+		};
+		A7F387452DB61FB80037E89A /* XCRemoteSwiftPackageReference "Glur" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/joogps/Glur?tab=readme-ov-file";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A7C48BC42DB6913000A3CC73 /* Shiny */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7C48BC32DB6913000A3CC73 /* XCRemoteSwiftPackageReference "shiny" */;
+			productName = Shiny;
+		};
+		A7C48BC72DB70C1400A3CC73 /* Liquid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7C48BC62DB70C1400A3CC73 /* XCRemoteSwiftPackageReference "liquid" */;
+			productName = Liquid;
+		};
+		A7C48BD12DB7158500A3CC73 /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7C48BD02DB7158500A3CC73 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
+		};
+		A7F387382DB610BC0037E89A /* SwiftUIIntrospect-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7F387362DB610A20037E89A /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = "SwiftUIIntrospect-Dynamic";
+		};
+		A7F387402DB61E2C0037E89A /* SwiftGlass */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7F3873F2DB61E2C0037E89A /* XCRemoteSwiftPackageReference "SwiftGlass" */;
+			productName = SwiftGlass;
+		};
+		A7F387432DB61FA90037E89A /* ColorfulX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7F387422DB61FA90037E89A /* XCRemoteSwiftPackageReference "ColorfulX" */;
+			productName = ColorfulX;
+		};
+		A7F387462DB61FB80037E89A /* Glur */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7F387452DB61FB80037E89A /* XCRemoteSwiftPackageReference "Glur" */;
+			productName = Glur;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A718B2F72DB601700010A6DF /* Project object */;
 }
