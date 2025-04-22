@@ -10,6 +10,7 @@
 		A7C48BC52DB6913000A3CC73 /* Shiny in Frameworks */ = {isa = PBXBuildFile; productRef = A7C48BC42DB6913000A3CC73 /* Shiny */; };
 		A7C48BC82DB70C1400A3CC73 /* Liquid in Frameworks */ = {isa = PBXBuildFile; productRef = A7C48BC72DB70C1400A3CC73 /* Liquid */; };
 		A7C48BD22DB7158500A3CC73 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = A7C48BD12DB7158500A3CC73 /* ConfettiSwiftUI */; };
+		A7C48BDC2DB7922F00A3CC73 /* SettingsAccess in Frameworks */ = {isa = PBXBuildFile; productRef = A7C48BDB2DB7922F00A3CC73 /* SettingsAccess */; };
 		A7F387392DB610BC0037E89A /* SwiftUIIntrospect-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = A7F387382DB610BC0037E89A /* SwiftUIIntrospect-Dynamic */; };
 		A7F3873A2DB610BC0037E89A /* SwiftUIIntrospect-Dynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = A7F387382DB610BC0037E89A /* SwiftUIIntrospect-Dynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		A7F387412DB61E2C0037E89A /* SwiftGlass in Frameworks */ = {isa = PBXBuildFile; productRef = A7F387402DB61E2C0037E89A /* SwiftGlass */; };
@@ -49,6 +50,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7F387392DB610BC0037E89A /* SwiftUIIntrospect-Dynamic in Frameworks */,
+				A7C48BDC2DB7922F00A3CC73 /* SettingsAccess in Frameworks */,
 				A7F387442DB61FA90037E89A /* ColorfulX in Frameworks */,
 				A7C48BC82DB70C1400A3CC73 /* Liquid in Frameworks */,
 				A7F387472DB61FB80037E89A /* Glur in Frameworks */,
@@ -113,6 +115,7 @@
 				A7C48BC42DB6913000A3CC73 /* Shiny */,
 				A7C48BC72DB70C1400A3CC73 /* Liquid */,
 				A7C48BD12DB7158500A3CC73 /* ConfettiSwiftUI */,
+				A7C48BDB2DB7922F00A3CC73 /* SettingsAccess */,
 			);
 			productName = SwiftUIVault;
 			productReference = A718B2FF2DB601700010A6DF /* SwiftUIVault.app */;
@@ -150,6 +153,7 @@
 				A7C48BC32DB6913000A3CC73 /* XCRemoteSwiftPackageReference "shiny" */,
 				A7C48BC62DB70C1400A3CC73 /* XCRemoteSwiftPackageReference "liquid" */,
 				A7C48BD02DB7158500A3CC73 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+				A7C48BDA2DB7922F00A3CC73 /* XCRemoteSwiftPackageReference "SettingsAccess" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A718B3002DB601700010A6DF /* Products */;
@@ -406,6 +410,14 @@
 				minimumVersion = 2.0.3;
 			};
 		};
+		A7C48BDA2DB7922F00A3CC73 /* XCRemoteSwiftPackageReference "SettingsAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/orchetect/SettingsAccess";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.0;
+			};
+		};
 		A7F387362DB610A20037E89A /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect";
@@ -455,6 +467,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A7C48BD02DB7158500A3CC73 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
 			productName = ConfettiSwiftUI;
+		};
+		A7C48BDB2DB7922F00A3CC73 /* SettingsAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7C48BDA2DB7922F00A3CC73 /* XCRemoteSwiftPackageReference "SettingsAccess" */;
+			productName = SettingsAccess;
 		};
 		A7F387382DB610BC0037E89A /* SwiftUIIntrospect-Dynamic */ = {
 			isa = XCSwiftPackageProductDependency;

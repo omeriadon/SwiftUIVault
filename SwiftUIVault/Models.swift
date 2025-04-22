@@ -204,3 +204,9 @@ enum ColorPreset: String, CaseIterable, Identifiable {
         }
     }
 }
+
+//MARK: - TabState
+class TabState: ObservableObject {
+    @Published var selectedTab: String = "General"
+}
+
