@@ -1,5 +1,5 @@
 {
-  "originHash" : "7dc11891f33bba04b0cfae8a922a33e0e64689bb95b4c5f3b260877e56314df6",
+  "originHash" : "ee974362907aeef1cc66ce467102d8a2dd24eda8d946a4241c7049c6d068a19c",
   "pins" : [
     {
       "identity" : "colorfulx",
@@ -44,6 +44,15 @@
       "state" : {
         "branch" : "master",
         "revision" : "067aecd19425b3d37d1bca176aca9a0dc5ff6ed0"
+      }
+    },
+    {
+      "identity" : "luminare",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/omeriadon/Luminare",
+      "state" : {
+        "branch" : "main",
+        "revision" : "3a2ca78556a17fa1aa19ccd3679642b458f5c0b6"
       }
     },
     {

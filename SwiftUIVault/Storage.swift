@@ -14,6 +14,7 @@ let allItems: [Item] = [
     Glur_Item,
     Shiny_Item,
     Liquid_Item,
-    Confetti_Item
+    Confetti_Item,
+    Luminare_Item
     
 ]

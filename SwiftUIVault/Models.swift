@@ -210,3 +210,9 @@ class TabState: ObservableObject {
     @Published var selectedTab: String = "General"
 }
 
+//MARK: - sfSymbolToNSImage
+func sfSymbolToNSImage(_ name: String, pointSize: CGFloat = 48) -> NSImage {
+    let config = NSImage.SymbolConfiguration(pointSize: pointSize, weight: .regular)
+    return NSImage(systemSymbolName: name, accessibilityDescription: nil)?
+        .withSymbolConfiguration(config) ?? NSImage()
+}

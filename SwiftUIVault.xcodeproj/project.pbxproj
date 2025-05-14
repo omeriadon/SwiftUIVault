@@ -16,6 +16,7 @@
 		A7F387412DB61E2C0037E89A /* SwiftGlass in Frameworks */ = {isa = PBXBuildFile; productRef = A7F387402DB61E2C0037E89A /* SwiftGlass */; };
 		A7F387442DB61FA90037E89A /* ColorfulX in Frameworks */ = {isa = PBXBuildFile; productRef = A7F387432DB61FA90037E89A /* ColorfulX */; };
 		A7F387472DB61FB80037E89A /* Glur in Frameworks */ = {isa = PBXBuildFile; productRef = A7F387462DB61FB80037E89A /* Glur */; };
+		A7FDDB982DBB931300DDD66D /* Luminare in Frameworks */ = {isa = PBXBuildFile; productRef = A7FDDB972DBB931300DDD66D /* Luminare */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +51,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7F387392DB610BC0037E89A /* SwiftUIIntrospect-Dynamic in Frameworks */,
+				A7FDDB982DBB931300DDD66D /* Luminare in Frameworks */,
 				A7C48BDC2DB7922F00A3CC73 /* SettingsAccess in Frameworks */,
 				A7F387442DB61FA90037E89A /* ColorfulX in Frameworks */,
 				A7C48BC82DB70C1400A3CC73 /* Liquid in Frameworks */,
@@ -116,6 +118,7 @@
 				A7C48BC72DB70C1400A3CC73 /* Liquid */,
 				A7C48BD12DB7158500A3CC73 /* ConfettiSwiftUI */,
 				A7C48BDB2DB7922F00A3CC73 /* SettingsAccess */,
+				A7FDDB972DBB931300DDD66D /* Luminare */,
 			);
 			productName = SwiftUIVault;
 			productReference = A718B2FF2DB601700010A6DF /* SwiftUIVault.app */;
@@ -154,6 +157,7 @@
 				A7C48BC62DB70C1400A3CC73 /* XCRemoteSwiftPackageReference "liquid" */,
 				A7C48BD02DB7158500A3CC73 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
 				A7C48BDA2DB7922F00A3CC73 /* XCRemoteSwiftPackageReference "SettingsAccess" */,
+				A7FDDB962DBB931300DDD66D /* XCRemoteSwiftPackageReference "Luminare" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A718B3002DB601700010A6DF /* Products */;
@@ -450,6 +454,14 @@
 				minimumVersion = 1.0.4;
 			};
 		};
+		A7FDDB962DBB931300DDD66D /* XCRemoteSwiftPackageReference "Luminare" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/omeriadon/Luminare";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -492,6 +504,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A7F387452DB61FB80037E89A /* XCRemoteSwiftPackageReference "Glur" */;
 			productName = Glur;
+		};
+		A7FDDB972DBB931300DDD66D /* Luminare */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7FDDB962DBB931300DDD66D /* XCRemoteSwiftPackageReference "Luminare" */;
+			productName = Luminare;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

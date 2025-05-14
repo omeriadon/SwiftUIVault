@@ -58,6 +58,10 @@ struct SwiftUIVaultApp: App {
                         .tag(item)
                         .frame(height: 60)
                     }
+                    
+                    
+                    
+                    
                     Button {
                         
                         tabState.selectedTab = "Contribute"
@@ -149,21 +153,7 @@ struct SwiftUIVaultApp: App {
 }
 
 class AppDelegate: NSObject, NSApplicationDelegate {
-    func applicationDidFinishLaunching(_ notification: Notification) {
-            // Set window background when app launches
-        if let window = NSApplication.shared.windows.first {
-            window.backgroundColor = .controlAccentColor
-        }
-        
-        
-    }
-    
-    func applicationDidBecomeActive(_ notification: Notification) {
-            // Ensure background is set when app becomes active
-        if let window = NSApplication.shared.windows.first {
-            window.backgroundColor = NSColor.controlAccentColor
-        }
-    }
+
     
     func applicationWillUpdate(_ notification: Notification) {
         DispatchQueue.main.async {
