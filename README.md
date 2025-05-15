@@ -14,7 +14,7 @@ I don't have an Apple Developer Program account so you need to go into Settings 
 
 <br>
 
-More updated occasionally
+Packages added occasionally
 
 <br>
 
